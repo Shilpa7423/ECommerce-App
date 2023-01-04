@@ -1,0 +1,23 @@
+.container
+{
+        gap: 60px;
+        justify-content: center;
+}
+
+.generics {
+   
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    height: 200px;
+    background-color: #777777;
+
+  }
+  .music{
+    
+    font-family: "Metal Mania";
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1em;
+}
