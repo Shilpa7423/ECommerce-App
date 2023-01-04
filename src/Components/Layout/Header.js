@@ -1,7 +1,7 @@
 import  { Navbar,Nav, Button } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import './Header.css';
-const Header =()=>{
+const Header =(props)=>{
 
     return(
         <>
@@ -13,7 +13,7 @@ const Header =()=>{
         <Navbar.Brand href="#home">ABOUT</Navbar.Brand>
         </Nav>
         </Container>
-        <Button className="me-2">Cart</Button>
+        <Button className="me-2" onClick={props.onShowCart}>Cart-3</Button>
         </Navbar>
         <div className='mt-1 generics'>The Generics</div>
         <h2 className="music">COLORS</h2>

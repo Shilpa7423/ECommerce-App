@@ -1,0 +1,57 @@
+
+
+.section {
+    text-align: center;
+}
+
+.div {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+}
+.column
+{
+    display: flex;
+    align-items: center;
+  
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.ite{
+    width:45%;
+    border-bottom: 1px solid black;
+
+    
+}
+.pric{
+    width:20%;
+    border-bottom: 1px solid black;
+    margin-left: 150px;
+ 
+}
+.quantit{
+    width:35%;
+    border-bottom: 1px solid black;
+    
+    
+}
+.cancel {
+    position: absolute;
+    cursor: pointer;
+    color: rgb(121, 117, 117);
+    top: 0;
+    right: 0;
+    margin: 20px;
+    background: none;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid rgb(121, 117, 117);
+    border-radius: 7px;
+    padding: 5px;
+}
+.h2{
+    align-items: flex-end;
+    text-align: end;
+}
+

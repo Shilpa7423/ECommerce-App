@@ -1,0 +1,32 @@
+
+.img {
+    width: 80px;
+    border-radius: 8%;
+    margin-right: 20px;
+    margin-left: 5px;
+  
+    
+}
+.price{
+    width:20%;
+    margin-left: 60px;
+  
+    padding-bottom: 250px;
+    
+
+}
+.quantity{
+    padding: 10px;
+    width: 40px;
+    height: 30px;
+    border: 1px solid rgb(0, 204, 255);
+    border-radius: 8%;
+    outline: none;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.row{
+
+    justify-items: center;
+}
